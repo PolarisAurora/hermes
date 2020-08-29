@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:myname="http://www.telnet.hermes/schema/user"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.telnet.hermes/schema/user http://www.telnet.hermes/schema/user.xsd">
+    <myname:user id="testBean" name="jacket" email="843648308@qq.com" />
+</beans>
