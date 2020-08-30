@@ -5,4 +5,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.telnet.hermes/schema/user http://www.telnet.hermes/schema/user.xsd">
     <myname:user id="testBean" name="jacket" email="843648308@qq.com" />
+
+    <bean id="car" class="com.telnet.hermes.spring.factory.CarFactoryBean">
+        <property name="carInfo" value="240,dazhong,20w" />
+    </bean>
+
 </beans>
